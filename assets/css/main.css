@@ -2277,3 +2277,65 @@ button,
         height: 80%;
         width: 80%;
     } */
+
+    /* .badget {
+        width: 100px;
+        height: 100px;
+        color: red;
+        size: 30px;
+    } */
+
+    .badget .icon{
+        width: 3em;
+        height: 3em;
+    }
+
+    .badget .icon:before {
+        color: #f56a6a;
+        font-size: 2.75rem;
+        position: relative;
+        top: 0.05em; }
+      /* .badget .icon:after {
+        -moz-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        border-radius: 0.25rem;
+        border: solid 2px rgba(210, 215, 217, 0.75);
+        content: '';
+        display: block;
+        height: 70px;
+        left: 50%;
+        margin: -3.5em 0 0 -3.5em;
+        position: absolute;
+        top: 50%;
+        width: 70px; } */
+    .icon.badget-svg {
+        /* width: 4em;
+        height: 4em; */
+        font-size: 1.5rem;
+
+    }
+
+    .badget-container {
+        display: flex;
+        flex-direction: row;
+        column-gap: 15px;
+        row-gap: 15px;
+
+        flex-wrap: wrap;
+    }
+
+    .languages-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+
+    }
+
+    .language-name {
+        color: #f56a6a;
+        font-size: 15px;
+        font-weight: 900;
+    }
