@@ -2310,20 +2310,21 @@ button,
         position: absolute;
         top: 50%;
         width: 70px; } */
-    .icon.badget-svg {
+
+        .badget>#badget-container {
+            display: flex;
+            flex-direction: row;
+            column-gap: 15px;
+            row-gap: 15px;
+
+            flex-wrap: wrap;
+        }
+
+        .badget>#badget-container>.icon.badget-svg {
         /* width: 4em;
         height: 4em; */
         font-size: 1.5rem;
 
-    }
-
-    .badget>#badget-container {
-        display: flex;
-        flex-direction: row;
-        column-gap: 15px;
-        row-gap: 15px;
-
-        flex-wrap: wrap;
     }
 
     .languages-container {
