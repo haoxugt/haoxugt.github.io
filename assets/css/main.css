@@ -2285,10 +2285,7 @@ button,
         size: 30px;
     } */
 
-    .badget .icon{
-        width: 3em;
-        height: 3em;
-    }
+
 
     .badget .icon:before {
         color: #f56a6a;
@@ -2320,11 +2317,16 @@ button,
             flex-wrap: wrap;
         }
 
-        .badget>#badget-container>.icon.badget-svg {
-        /* width: 4em;
-        height: 4em; */
-        font-size: 1.5rem;
+        .badget>#badget-container .icon.badget-svg {
+            font-size: 0.7em;
+        width: 8em;
+        height: 8em;
 
+    }
+
+        .badget .icon{
+        width: 8em;
+        height: 8em;
     }
 
     .languages-container {
