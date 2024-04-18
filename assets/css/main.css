@@ -2369,7 +2369,7 @@ button,
         width:auto;
     }
 
-    div#works-container>article>div {
+    div#works-container>div>div {
         display: flex;
         flex-direction: row;
         margin: 0px;
@@ -2378,11 +2378,12 @@ button,
         column-gap: 8px;
     }
 
-    div#works-container>article>div>h3 {
+    div#works-container>div>div>h3 {
         align-self: center;
         margin-bottom: 0px;
     }
 
-    div#works-container>article>div>h4 {
+    div#works-container>div>div>h4 {
         align-self: center;
+        margin-bottom: 0px;
     }
