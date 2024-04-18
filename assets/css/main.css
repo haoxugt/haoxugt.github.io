@@ -2342,3 +2342,47 @@ button,
         font-size: 15px;
         font-weight: 900;
     }
+
+    div#educations-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#educations-container>article {
+        /* display: flex;
+        flex-direction: column; */
+        margin: 0px;
+        margin-left: 2.5em;
+        width:auto;
+    }
+
+    div#works-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#works-container>article {
+        /* display: flex;
+        flex-direction: column; */
+        margin: 0px;
+        /* margin-left: 2.5em; */
+        width:auto;
+    }
+
+    div#works-container>article>div {
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        margin-left: 2.5em;
+        align-items: center;
+        column-gap: 8px;
+    }
+
+    div#works-container>article>div>h3 {
+        align-self: center;
+        margin-bottom: 0px;
+    }
+
+    div#works-container>article>div>h4 {
+        align-self: center;
+    }
